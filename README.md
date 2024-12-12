@@ -71,10 +71,10 @@ Form Builder is a web application that allows users to create custom forms using
 - Node.js (v14 or later)
 - MySQL
 
-### Frontend Setup
-1. Navigate to the client directory:
+### Project Setup
+1. Navigate to the project/src directory:
   ```bash
-    cd client
+    cd project-folder/src
   ```
 2. Install dependencies
   ```bash
@@ -84,13 +84,8 @@ Form Builder is a web application that allows users to create custom forms using
    ```bash
    npm run dev/start
    ```
-
-### The frontend will be available at `http://localhost:3000`.
-
-### Backend Setup
-1. Navigate to the server directory:
-2. Install dependencies:
-3. Create a `.env` file in the server directory with the following content:
+   
+4. Create a `.env` file in the server directory with the following content:
 
   ```bash
     PORT=5000
@@ -102,13 +97,13 @@ Form Builder is a web application that allows users to create custom forms using
 
 Replace `your_mysql_username` and `your_mysql_password` with your actual MySQL credentials.
 
-4. Set up the database:
+5. Set up the database:
 - Create a new MySQL database named `form_builder`
 - Run the SQL scripts in `server/src/utils/database.sql` to create the necessary tables
 
 5. Start the development server:
 
-The backend API will be available at `http://localhost:5000`.
+The  API will be available at `http://localhost:5000`.
 
 ## API Documentation
 
